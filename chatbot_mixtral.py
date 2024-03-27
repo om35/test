@@ -120,7 +120,7 @@ if __name__ == "__main__":
     if not llm_name: st.stop()
 
     conversation_key = f"model_{llm_name}"
-    prompt = st.chat_input(f"Ask '{llm_name}' a question ...")
+    prompt = st.chat_input(f"Ask Diwall a question ...")
 
     st_ollama(llm_name, prompt, conversation_key)
     
